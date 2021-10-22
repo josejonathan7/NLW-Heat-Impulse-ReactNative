@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { styles } from './style';
 import LogoSvg from '../../assets/logo.svg';
+import { UserPhoto } from "../UserPhoto";
 
 export function Header() {
 
@@ -10,10 +11,14 @@ export function Header() {
         <View style={styles.container}>
             <LogoSvg />
 
-            <TouchableOpacity>
-                <Text style={styles.logoutText} >Sair</Text>
-            </TouchableOpacity>
-            
+            <View style={styles.logoutButton}>
+                <TouchableOpacity>
+                    <Text style={styles.logoutText} >Sair</Text>
+                </TouchableOpacity>
+
+                <UserPhoto imageUri={'https://github.com/josejonathan7.png'} />
+            </View>
+
         </View>
     );
 }
