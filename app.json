@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "NLW-Heat-Apk",
-    "slug": "NLW-Heat-Apk",
+    "name": "nlw-heat-apk",
+    "slug": "nlw-heat-apk",
+    "scheme": "nlw-heat-apk",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
